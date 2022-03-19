@@ -1,0 +1,42 @@
+{
+  "intents": [
+
+    {
+      "tag": "Degree validation",
+      "patterns": [
+        "how to validate my degree",
+        "How do you verify a degree?",
+        "How do I validate an educational certificate?",
+        "How do I know if my degree certificate is valid?",
+        "How can I verify my UGC degree?",
+        "How can I verify my UGC e certificate?",
+        "How can I download my old UGC NET certificate?",
+        "Which university is UGC approved?"
+
+      ],
+      "responses": [
+
+        "A statutory university can award degree specified under Section 22 of UGC Act, 1956, with the due approval of its competent councils and statutory councils",
+        "visit facilities.aicte-india.org/dashboard/pages/aicte_nba.php to verify UGC approved colleges",
+        "The qualified candidates can download UGC NET certificate from the official portal - ecertificate.nta.ac.in"
+              ]
+    },
+
+
+    {
+      "tag": "Is AICTE approval mandatory?",
+      "patterns": [
+        "What is an AICTE approval?",
+        "Is AICTE approval mandatory"
+      ],
+      "responses": [
+        "for queries on Approval of Technical courses :\n University of any kind whether private or government, does not need AICTE approval to run technical courses.",
+        "for queries on Approval of medical and Paramedical Cources :\n comes under the purvievv of Medical Council of lndia",
+        "for queries on Approval of Teacher's training Cources :\n"
+
+        ]
+    }
+
+
+  ]
+}

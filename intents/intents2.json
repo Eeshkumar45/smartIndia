@@ -1,0 +1,181 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hai",
+        "Hello",
+        "Is anyone there"
+      ],
+      "responses": [
+        "Hello,thanks for visiting",
+        "Hi there,what can I do for you?",
+        "Hi there,how can I help?"
+      ]
+    },
+    {
+      "tag": "access",
+      "patterns": [
+        "Can I open AICTE web portal in any browser?",
+        "Is AICTE web page accessable in any browser?",
+        "can we open AICTE page in any web browser?"
+      ],
+      "responses": [
+        "Yes,you can open AICTE web page in any browser."
+      ]
+    },
+    {
+      "tag": " sub tabs",
+      "patterns": [
+        "I am not able to find some tabs in New upgraded AICTE Web Portal.",
+        "where can I find all the sub tabs in AICTE wweb page?",
+        "Where the sub tabs are present in the AICTE web page?"
+      ],
+      "responses": [
+        "All sub tabs are available under drop down or You may find all available tabs in one page by Sitemap option. Sitemap option is available in Navigate Menu. Shortcut Keyboard key for Sitemap is Ctrl+Shift+A."
+      ]
+    },
+    {
+      "tag": "Approval process",
+      "patterns": [
+        "Where I can find information related to Approval Process?",
+        "Where can I get information related to Approval process?",
+        "where the information about the Approval process  is present?"
+      ],
+      "responses": [
+        "Information related to Approval Process can be found on AICTE Home page under Quick Links."
+      ]
+    },
+    {
+      "tag": "new id and passwrord",
+      "patterns": [
+        "How can I get New User-id and password for Website password?",
+        "How can I get new login credentials for AICTE Website?",
+        "HoW can I create new Id and password for the AICTE website?"
+      ],
+      "responses": [
+        "Please click on Request New User Id link on AICTE Web-portal."
+      ]
+    },
+    {
+      "tag": "recover password",
+      "patterns": [
+        "I have forgotten password for logging in AICTE Web Portal. What is the procedure to recover this?",
+        "What is the procedure I have to follow if I forgot my password for logging in AICTE website?",
+        "What are steps need to follow to recover password of logging to my AICTE home page?"
+      ],
+      "responses": [
+        "Click on 'Request for Forgot Password' in http://www.aicte-india.org/ . Kindly fill User Id or Institute Permanent Id or any of the Application Ids and click on Submit Request. Click on Click Here to Make Payment and make Online Payment of Rs  5000. Thereafter, please submit affidavit in concerned Regional Office to retrieve forgot password. Affidavit format is available in AICTE Approval Process Handbook."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "I am not able to make payment because AICTE Website is not directing to Payment Gateway.",
+        "How can I make online payment in the AICTE website?",
+        "What is the process of making online payment dorectly in the AICTE webiste?"
+      ],
+      "responses": [
+        "Please check whether your application has been submitted successfully or not. If submitted then allow Popups for AICTE Website through Web browser URL.then if drectly take you to the payment gateway.there you make your payment."
+      ]
+    },
+    {
+      "tag": "details",
+      "patterns": [
+        "Is it necessary to provide details for Quality Education Mandate?",
+        "Is Quality Education Mandate is required for providing details?"
+      ],
+      "responses": [
+        "Yes. It is mandate for all the Engineering & Technology Institutions running UG Courses. Only UG related Course information should be provided under Quality Education Mandate Form."
+      ]
+    },
+    {
+      "tag": "Natioanl Acadamic Despository",
+      "patterns": [
+        "What is NAD? How to apply to id?",
+        "What is the procedure to follow for applying to NAD?",
+        "What is National Academic Depository? How to apply?"
+      ],
+      "responses": [
+        "NAD is a Unique, Innovative and Progressive step towards achieving Digital enablement of the Education Records. NAD aspires to make the vision of Digital Academic Certificates for every Indian a reality.NAD is not only a database copy of the certificate records for Academic Institutions but a complete system for Issuing Online Certificates to well identified and registered students. It will be an active online place for Students, Academic Institutions and Verification Users. To apply, Institutions shall log on to https://nad.ndml.in/about-nad.html and proceed towards the link “New Registrations”."
+      ]
+    },
+    {
+      "tag": "portal and approval issues",
+      "patterns": [
+        "Where to send the queries related to portal and approval related issues for the approval process?",
+        "what is the process to follow for portal and approval related issues for the approval process?",
+        "what is the procedure to send the issues for the approval process?"
+      ],
+      "responses": [
+        "Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process quick links. No queries through email will be entertained."
+      ]
+    },
+    {
+      "tag": "AICTE approval",
+      "patterns": [
+        "Whether MCA/ MBA Department of Arts and Science College is eligible to apply for AICTE approval?",
+        "Whether AICTE approval is needed for running MCA Course in our Arts and Science College?"
+      ],
+      "responses": [
+        "Yes.In case of non-Technical Institutions seekingapproval for conducting MCA/ MBA and University Departments/ Constituent Colleges seeking approval for conducting MCA/ MBA/ M.Tech. Programmes apart from their existing Courses, separate building and Principal are NOT required. However, in such cases all other Approval Process norms such as separate Head of the Department, Faculty,Infrastructure, Built-Up area, etc. should be fulfilled."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "How can we apply for Courses in Emerging /Multidisciplinary Areas in Engineering and Technology?",
+        "what are the coditions required for applying courses in Emerging/Multidisciplinary Areas in Engering and technology?",
+        "what is the procedure to apply for courses in Emerging /Multidisciplinary Areas in Engineering and Technology?"
+      ],
+      "responses": [
+        "You can apply for Increase in Intake/ Additional Course(s) in Emerging /Multidisciplinary Areas, provided the eligibility conditions mentioned in 2.14 and 7.3.2 of APH 2021-22 are fulfilled."
+      ]
+    },
+    {
+      "tag": "submission of allications",
+      "patterns": [
+        "What is the last date of submission of hard copy application at Regional Office for the applications?",
+        "When we have to submit the hard copy application at the Regional office for the applications?",
+        "Is it necessary for the submission of hard copy application at Regional Office for the applications?"
+      ],
+      "responses": [
+        "Hard copies of the application/ additional documents need not be submitted to the Regional office.Any documents need to be submitted/required then such document shall be Digitally Signed & uploaded on AICTE web portal. Applications other than those for Extension of Approval to be processed by the Scrutiny/ Re-Scrutiny Committee shall present their application and ALL original documents along with self-attested copies before the Committee (if offline). Refer APH for the documents (as applicable) to be uploaded in the Web-Portal."
+      ]
+    },
+    {
+      "tag": "research laboratory",
+      "patterns": [
+        "Do we need Research Laboratory for each PG Course?",
+        "Is it necessay to have Research Laboratory for every PG course?",
+        "Is Research Laboratory is mandatory for every PG course?"
+      ],
+      "responses": [
+        "No. Research Laboratory is to be provided for each Institution offering Post Graduate Courses."
+      ]
+    },
+    {
+      "tag": "Technical program",
+      "patterns": [
+        "What is the procedure to start any Technical Program in a University?",
+        "what is the pocess to start MCA program in a University?",
+        "what are the steps need to be follow to start a Techincal program in a University?"
+      ],
+      "responses": [
+        "Universities are permitted to Start any Technical Program (including MCA) without prior approval of AICTE. However, all the University need to maintain Norms & Standards prescribed by AICTE for running such programs from time to time."
+      ]
+    },
+    {
+      "tag": "MCA",
+      "patterns": [
+        "What is the duration of MCA Course?",
+        "Lateral Entry Permissible in MCA?",
+        "What is the duration of MCA course?,Lateral Entry permissible in MCA?"
+      ],
+      "responses": [
+        "Two Years.",
+        "The duration is only two years.Hence Lateral Entry is NOT permissible."
+      ]
+    }
+  ]
+}
